@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Samoloty" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Samoloty" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add library="sfml-audio-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Samoloty" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="include/AudioManager.h" />
+		<Unit filename="include/BF109.h" />
+		<Unit filename="include/BOSS.h" />
+		<Unit filename="include/Boost.h" />
+		<Unit filename="include/Bullet.h" />
+		<Unit filename="include/Clouds.h" />
+		<Unit filename="include/Enemy.h" />
+		<Unit filename="include/Explosion.h" />
+		<Unit filename="include/FW190.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Heal.h" />
+		<Unit filename="include/ILSturm.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/MitsuZero.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Scoreboard.h" />
+		<Unit filename="include/TextureManager.h" />
+		<Unit filename="include/TwoBullets.h" />
+		<Unit filename="include/V2Rocket.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AudioManager.cpp" />
+		<Unit filename="src/BF109.cpp" />
+		<Unit filename="src/BOSS.cpp" />
+		<Unit filename="src/Boost.cpp" />
+		<Unit filename="src/Bullet.cpp" />
+		<Unit filename="src/Clouds.cpp" />
+		<Unit filename="src/Enemy.cpp" />
+		<Unit filename="src/Explosion.cpp" />
+		<Unit filename="src/FW190.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Heal.cpp" />
+		<Unit filename="src/ILSturm.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/MitsuZero.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Scoreboard.cpp" />
+		<Unit filename="src/TextureManager.cpp" />
+		<Unit filename="src/TwoBullets.cpp" />
+		<Unit filename="src/V2Rocket.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
