@@ -3,6 +3,7 @@ A simple shoot'em up game made in SFML C++.
 
 IDE: Code Blocks
 
+Please refer to presentation.mp4 to see the gameplay.
 Menu:
 
 ![292927332-1a3c9621-943a-4d6c-82bf-4db9e1014b9a](https://github.com/MaciejSpo/SFML-Shoot-em-up-game/assets/148622524/c82047b9-9233-4f76-8b79-dda124ada6e7)
