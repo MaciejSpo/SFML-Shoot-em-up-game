@@ -5,8 +5,10 @@ IDE: Code Blocks
 
 Menu:
 
-![obraz](https://github.com/Baszkos/Strikers-Game/assets/64090155/1a3c9621-943a-4d6c-82bf-4db9e1014b9a)
+![292927332-1a3c9621-943a-4d6c-82bf-4db9e1014b9a](https://github.com/MaciejSpo/SFML-Shoot-em-up-game/assets/148622524/c82047b9-9233-4f76-8b79-dda124ada6e7)
+
 
 Gameplay:
 
-![obraz](https://github.com/Baszkos/Strikers-Game/assets/64090155/3e191358-cc57-471e-a948-4a8196d30544)
+![292927426-3e191358-cc57-471e-a948-4a8196d30544](https://github.com/MaciejSpo/SFML-Shoot-em-up-game/assets/148622524/eecb73a7-6a93-4d0f-8dd5-e859dd58d8ab)
+
